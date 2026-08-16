@@ -38,7 +38,7 @@ Learn to design and build production-oriented agentic systems using LangGraph, p
 2. Pass `name` in the initial state.
 3. Generate the greeting from `state["name"]`.
 
-### 🚧 Module 2 — State Management
+### ✅ Module 2 — State Management
 
 - `TypedDict`
 - Shared state
@@ -48,7 +48,7 @@ Learn to design and build production-oriented agentic systems using LangGraph, p
 
 **Mini-project:** Multi-step customer processing workflow
 
-### ⬜ Module 3 — Building Workflows
+### ✅ Module 3 — Building Workflows
 
 - Sequential execution
 - Conditional routing
@@ -58,7 +58,7 @@ Learn to design and build production-oriented agentic systems using LangGraph, p
 
 **Mini-project:** Order processing workflow
 
-### ⬜ Module 4 — LLM Integration
+### ✅ Module 4 — LLM Integration
 
 - `ChatOpenAI`
 - Prompt construction
@@ -68,7 +68,7 @@ Learn to design and build production-oriented agentic systems using LangGraph, p
 
 **Mini-project:** Intelligent email classifier
 
-### ⬜ Module 5 — Tool Calling
+### 🚧 Module 5 — Tool Calling
 
 - Defining tools
 - `ToolNode`
