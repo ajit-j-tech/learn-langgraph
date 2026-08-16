@@ -47,10 +47,10 @@ class CashApplicationState(TypedDict):
     matches: NotRequired[list[PaymentMatch]]
 
     # Decision
-    decision = NotRequired[Literal["auto_apply", "not_match", "human_review"]]
+    application_decision: NotRequired[Literal["auto_apply", "not_match", "human_review"]]
 
     # Result
-    matching_status = NotRequired[str]
+    matching_status: NotRequired[str]
 
 """
 Remittance Workflow Nodes
@@ -220,6 +220,9 @@ def route_application(
     state: CashApplicationState,
 ) -> Literal["auto_apply", "human_review", "no_match"]:
 
+    print("===============================")
+    print(state.keys())
+    print("===============================")
     return state["application_decision"]
 
 def auto_apply(
@@ -257,8 +260,10 @@ def handle_no_match(
 # Build the LangGraph Workflow
 from langgraph.graph import END, START, StateGraph
 
+# Graph Builder
 builder = StateGraph(CashApplicationState)
 
+# Nodes
 builder.add_node("read_remittance", read_remittance)
 builder.add_node("fetch_bank_payments", fetch_bank_payments)
 builder.add_node("fetch_open_invoices", fetch_open_invoices)
@@ -268,6 +273,7 @@ builder.add_node("human_review", human_review)
 builder.add_node("no_match", handle_no_match)
 builder.add_node("evaluate_matches", evaluate_matches)
 
+# Edges
 builder.add_edge(START, "read_remittance")
 
 builder.add_edge("read_remittance", "fetch_bank_payments")
