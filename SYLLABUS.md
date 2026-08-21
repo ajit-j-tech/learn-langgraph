@@ -68,7 +68,7 @@ Learn to design and build production-oriented agentic systems using LangGraph, p
 
 **Mini-project:** Intelligent email classifier
 
-### 🚧 Module 5 — Tool Calling
+### ✅ Module 5 — Tool Calling
 
 - Defining tools
 - `ToolNode`
