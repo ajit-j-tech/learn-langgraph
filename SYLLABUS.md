@@ -78,7 +78,7 @@ Learn to design and build production-oriented agentic systems using LangGraph, p
 
 **Mini-project:** Customer lookup assistant
 
-### ⬜ Module 6 — Memory and Checkpointing
+### ✅ Module 6 — Memory and Checkpointing
 
 - Checkpointers
 - Conversation memory

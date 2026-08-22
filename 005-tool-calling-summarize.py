@@ -98,7 +98,7 @@ def fetch_customer_balance(customer_id: str) -> dict:
             "customer_id": "CUST-004",
             "balance": 0
         }
-    }
+    }   
 
     logging.info(f"Customer {customer_id} found!")
     return customer_data[customer_id]
