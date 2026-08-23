@@ -115,7 +115,7 @@ Learn to design and build production-oriented agentic systems using LangGraph, p
 
 **Mini-project:** Customer information assistant using MCP
 
-### ⬜ Module 10 — Enterprise Patterns
+### ✅ Module 10 — Enterprise Patterns
 
 - Retries and failure recovery
 - Observability and tracing
