@@ -105,7 +105,7 @@ Learn to design and build production-oriented agentic systems using LangGraph, p
 
 **Mini-project:** Research agent system
 
-### ⬜ Module 9 — MCP Integration
+### ✅ Module 9 — MCP Integration
 
 - Connecting to MCP servers
 - Discovering and invoking MCP tools
