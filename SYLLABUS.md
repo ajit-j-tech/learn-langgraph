@@ -86,7 +86,7 @@ Learn to design and build production-oriented agentic systems using LangGraph, p
 - Resuming execution
 - Persistent state
 
-### ⬜ Module 7 — Human in the Loop
+### ✅ Module 7 — Human in the Loop
 
 - Interrupts
 - Approval steps
@@ -95,7 +95,7 @@ Learn to design and build production-oriented agentic systems using LangGraph, p
 
 **Mini-project:** Invoice approval workflow
 
-### ⬜ Module 8 — Multi-Agent Systems
+### ✅ Module 8 — Multi-Agent Systems
 
 - Supervisor pattern
 - Specialist agents
